@@ -1,4 +1,10 @@
 function [s] = mat2latex(a)
+    % This function converts a numerical Matlab matrix into its LaTeX 
+    % counterpart and prints that matrix. 
+    % input:
+    % a - numerical matrix
+    % output:
+    % s - matrix in LaTex format (string)
     fmt = '%g';
     [nr,nc] = size(a);
     row = [fmt, ' ', repmat(['& ', fmt, ' '], 1, nc-1)];
