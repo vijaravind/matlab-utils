@@ -1,5 +1,7 @@
 function [s] = mat2latex(a)
-    % This function converts a numerical Matlab matrix into its LaTeX 
+    % [s] = mat2latex(a)
+    %
+    % Function converts a numerical Matlab matrix into its LaTeX 
     % counterpart and prints that matrix. 
     % input:
     % a - numerical matrix
