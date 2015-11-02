@@ -9,7 +9,7 @@ function [V] = skew(v)
     % V - the Skew-symmetric matrix of vector v
     v = v(:);   % to ensure column vector
     if 3 ~= size(v, 1)
-        error('matlab_utils/skew.m', 'input vector must be 3x1');
+        error('matlab-utils/skew.m', 'input vector must be 3x1');
     end
     V = zeros(3, 3);
     V(1,2) = -v(3);
